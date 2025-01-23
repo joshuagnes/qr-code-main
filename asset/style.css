@@ -35,6 +35,10 @@ body {
   margin: 10px;
 }
 
+.card:nth-of-type(4) {
+  grid-column: 2 / 3;
+}
+
 .qr-code {
   width: 288px;
   height: 288px;
@@ -58,5 +62,9 @@ p {
   .grid-container {
     grid-template-columns: 1fr;
     max-height: 100%;
+  }
+
+  .card:nth-of-type(4) {
+    grid-column: 1;
   }
 }
